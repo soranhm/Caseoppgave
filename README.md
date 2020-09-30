@@ -19,6 +19,7 @@ Ved overføring av en fil til en Azure Blob, skal det trigges (Azure Storage Blo
 - Installering av programvare og teste slik alt funker for enkel oppgave.
 - Generere en metode i C# som tar in .txt fil, for så returnere ut en .json fil.
 - Enkel diagram som beskriver tilkoblingen mellom de forkjellige delene.
+  <br /><br />
   ![](https://github.com/soranhm/Caseoppgave/blob/master/images/Diagram.png?raw=true)
 - Initialisere Azure Function for et Blob Trigger.
 - Tilpass metoden slik at den tar imot .txt fra blob container i lokal Azure Storage og sender ut melding til Service Bus.
