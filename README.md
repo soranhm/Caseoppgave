@@ -1,6 +1,7 @@
 # Caseoppgave
 
 Ved overføring av en fil til en Azure Blob, skal det trigges (Azure Storage Blob Trigger) en Azure Function App. Denne skal lese og videresende innholdet i filen til Azure Service Bus.
+<br /><br />
 
 # Nødvenidge programmvarer
 
@@ -52,7 +53,7 @@ over til Blob containeren `caseoppgave`.
   <br /><br />
   ![](https://github.com/soranhm/Caseoppgave/blob/master/images/run3.PNG?raw=true)
 
-- Dermed har informationen i .txt filen blitt behandlet og skrevet om til .json format, før sent videre til Service Bus Explorer som vil sende ut 2 meldinger som består av Personene spesifisert i .txr filen:
+- Dermed har informationen i .txt filen blitt behandlet og skrevet om til .json format, før sent videre til Service Bus Explorer som vil sende ut 2 meldinger som består av Personene spesifisert i .txt filen:
   <br /><br />
   ![](https://github.com/soranhm/Caseoppgave/blob/master/images/run4.PNG?raw=true)
 
