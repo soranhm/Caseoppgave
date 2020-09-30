@@ -21,7 +21,7 @@ Caseoppgaven kan kjøres ved å klone over repositoriet på egen pc og åpne opp
 ## Gjennomgang
 
 - Det første som kommer opp etter kjøring av filen `Function1.cs` er:
-  <br />
+  <br /><br />
   ![](https://github.com/soranhm/Caseoppgave/blob/master/images/run1.PNG?raw=true)
 
 Dette betyr at alt er oppe og går.
@@ -35,17 +35,17 @@ Arne;Brimi;Kokk
 ```
 
 over til Blob containeren `caseoppgave`.
-<br />
+<br /><br />
 ![](https://github.com/soranhm/Caseoppgave/blob/master/images/run2.PNG?raw=true)
 
 - Ved overføring av filen, vil `BlobTrigger` slå inn:
-  <br />
+  <br /><br />
   ![](https://github.com/soranhm/Caseoppgave/blob/master/images/run3.PNG?raw=true)
 
 - Dermed har informationen i .txt filen blitt behandlet og skrevet om til .json format, før sent videre til Service Bus Explorer som vil sende ut 2 meldinger som består av Personene spesifisert i .txr filen:
-  <br />
+  <br /><br />
   ![](https://github.com/soranhm/Caseoppgave/blob/master/images/run4.PNG?raw=true)
 
 - Service Bus Explorer er koblet med Azure-kontoen. Dette kan visualiserers ved å se antall aktive meldinger i Azure:
-  <br />
+  <br /><br />
   ![](https://github.com/soranhm/Caseoppgave/blob/master/images/run5.PNG?raw=true)
