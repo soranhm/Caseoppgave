@@ -14,6 +14,15 @@ Ved overføring av en fil til en Azure Blob, skal det trigges (Azure Storage Blo
 - .Net Core 3.1 SDK
 - Azure Function Tools
 
+# Tankegang
+
+- Installering av programvare og teste slik alt funker for enkel oppgave.
+- Generere en metode i C# som tar in .txt fil, for så returnere ut en .json fil.
+- Enkel diagram som beskriver tilkoblingen mellom de forkjellige delene.
+  ![](https://github.com/soranhm/Caseoppgave/blob/master/images/Diagram.png?raw=true)
+- Initialisere Azure Function for et Blob Trigger.
+- Tilpass metoden slik at den tar imot .txt fra blob container i lokal Azure Storage og sender ut melding til Service Bus.
+
 # Kjøring
 
 Caseoppgaven kan kjøres ved å klone over repositoriet på egen pc og åpne opp prosjektet `Caseoppgave.sln` og kjøre filen `Function1.cs` som vil åpne opp en Azure Function terminal. DEt er nødvenidg å kjøre et lokalt storgae med "Microsoft Azure Storage Emulator" og og lage en blob container i local-1 som med navnet `caseoppgave`!.
