@@ -17,7 +17,7 @@ Ved overføring av en fil til en Azure Blob, skal det trigges (Azure Storage Blo
 
 # Tankegang
 
-- Installering av programvare og teste slik alt funker for enkel oppgave.
+- Installering av programvare og teste slik alt funker for en enkel oppgave.
 - Generere en metode i C# som tar in .txt fil, for så returnere ut en .json fil.
 - Enkel diagram som beskriver tilkoblingen mellom de forkjellige delene.
   <br /><br />
@@ -27,7 +27,7 @@ Ved overføring av en fil til en Azure Blob, skal det trigges (Azure Storage Blo
 
 # Kjøring
 
-Caseoppgaven kan kjøres ved å klone over repositoriet på egen pc og åpne opp prosjektet `Caseoppgave.sln` og kjøre filen `Function1.cs` som vil åpne opp en Azure Function terminal. DEt er nødvenidg å kjøre et lokalt storgae med "Microsoft Azure Storage Emulator" og og lage en blob container i local-1 som med navnet `caseoppgave`!.
+Caseoppgaven kan kjøres ved å klone over repositoriet på egen pc og åpne opp prosjektet `Caseoppgave.sln` og kjøre filen `Function1.cs` som vil åpne opp en Azure Function terminal. Det er nødvenidg å kjøre et lokalt storgae med "Microsoft Azure Storage Emulator" og lage en blob container i local-1 som med navnet `caseoppgave`!.
 
 ## Gjennomgang
 
